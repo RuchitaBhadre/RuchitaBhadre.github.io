@@ -2201,9 +2201,9 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			height: 30em;
-			padding-left: 10px; /* Adjust the value as needed */
-   			padding-right: 10px; /* Adjust the value as needed */
-    			padding-top: 10px; /* Adjust the value as needed */
+			padding-left: 25px; /* Adjust the value as needed */
+   			padding-right: 25px; /* Adjust the value as needed */
+    			padding-top: 40px; /* Adjust the value as needed */
 			border-radius: 0;
 		}
 
