@@ -2211,6 +2211,47 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
+/* Slideshow */
+.slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .mySlides {
+      display: none;
+      position: absolute;
+      width: 100%;
+      opacity: 0.8;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px;
+      color: white;
+      background-color: black;
+      border: none;
+    }
+
+    .prev {
+      left: 0;
+    }
+
+    .next {
+      right: 0;
+    }
+
 /* List */
 
 	ol {
