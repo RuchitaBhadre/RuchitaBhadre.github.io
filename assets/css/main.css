@@ -2398,7 +2398,23 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.25em;
 			}
+/* Slideshow */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
 
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Example: Add border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example: Add box-shadow */
+}
 /* Table */
 
 	.table-wrapper {
