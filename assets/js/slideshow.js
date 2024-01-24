@@ -24,8 +24,8 @@ var slideIndex = {
 };
 
 // Show the initial slides for each slideshow
-showSlides(slideIndex['slideshow1'], 'slideshow1');
-showSlides(slideIndex['slideshow2'], 'slideshow2');
-showSlides(slideIndex['slideshow3'], 'slideshow3');
-
-
+document.addEventListener("DOMContentLoaded", function () {
+  for (var id in slideIndex) {
+    showSlides(slideIndex[id], id);
+  }
+});
